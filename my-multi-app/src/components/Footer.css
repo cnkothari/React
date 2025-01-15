@@ -1,0 +1,15 @@
+footer {
+    background-color: black; /* Black background */
+    color: white; /* White text color */
+    text-align: center; /* Center the text */
+    padding: 15px; /* Padding around the footer */
+    position: relative; /* Positioning context for footer */
+    bottom: 0; /* Stick to the bottom */
+    width: 100%; /* Full width */
+  }
+  
+  footer p {
+    margin: 0; /* Remove default margin */
+    font-size: 14px; /* Font size for footer text */
+  }
+  

@@ -1,0 +1,20 @@
+.main-content {
+    display: flex; /* Use flexbox for layout */
+    flex: 1; /* Allow the main content to grow */
+  }
+  
+  .sidebar {
+    width: 200px; /* Fixed width for the sidebar */
+    background-color: black; /* Black background for the sidebar */
+    color: white; /* White text color */
+    padding: 20px; /* Padding around the sidebar */
+    height: 100vh; /* Full height of the viewport */
+    box-shadow: 2px 0 5px rgba(0, 0, 0, 0.5); /* Subtle shadow for depth */
+  }
+  
+  .content {
+    flex: 1; /* Allow the content area to take the remaining space */
+    padding: 20px; /* Padding around the content */
+    background-color: #f9f9f9; /* Light background for the content */
+    min-height: 100vh; /* Ensure content area is at least full height */
+  }

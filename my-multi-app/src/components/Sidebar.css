@@ -1,0 +1,33 @@
+/* src/App.css or src/components/Sidebar.css */
+aside {
+    background-color: black; /* Black background */
+    color: white; /* White text color */
+    padding: 20px; /* Padding around the sidebar */
+    width: 200px; /* Fixed width for the sidebar */
+    height: 100vh; /* Full height of the viewport */
+    box-shadow: 2px 0 5px rgba(0, 0, 0, 0.5); /* Subtle shadow for depth */
+  }
+  
+  aside h2 {
+    margin-top: 0; /* Remove default margin */
+    font-size: 20px; /* Font size for the sidebar title */
+  }
+  
+  aside ul {
+    list-style-type: none; /* Remove bullet points from list */
+    padding: 0; /* Remove default padding */
+  }
+  
+  aside li {
+    margin: 15px 0; /* Space between list items */
+  }
+  
+  aside a {
+    color: white; /* White text color for links */
+    text-decoration: none; /* Remove underline from links */
+    transition: color 0.3s; /* Smooth transition for hover effect */
+  }
+  
+  aside a:hover {
+    color: #007bff; /* Change link color on hover */
+  }
